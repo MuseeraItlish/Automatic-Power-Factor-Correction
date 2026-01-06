@@ -54,32 +54,5 @@ All system parameters are displayed in real time on an LCD.
 
 -Power quality enhancement
 
-## Advantages
 
--Reduces reactive power losses
 
--Improves system efficiency
-
--Lowers electricity bills
-
--Fully automatic operation
-
--Simple and economical design
-
-## Limitations & Future Scope
-
-### Limitations
-
-  -Correction limited by capacitor bank size
-
-  -Reactive (not predictive) control
-
-  -No remote monitoring
-
-### Future Improvements
-
-  -IoT-based remote monitoring
-  
-  -Wireless data logging (Wi-Fi / GSM)
-  
-  -Smart predictive control algorithms
