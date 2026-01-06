@@ -1,12 +1,12 @@
 # Automatic-Power-Factor-Correction
 
-##Overview
+## Overview
 
 This project implements an Automatic Power Factor Correction (APFC) system using an Arduino ATmega328 to improve power factor in AC electrical systems with inductive loads such as submersible pumps and bulbs. The system continuously measures electrical parameters and automatically switches capacitor banks to compensate for reactive power.
 
 The goal is to reduce energy losses, improve efficiency, and lower electricity costs, especially in rural and small industrial applications.
 
-##Key Features
+## Key Features
 
 -Real-time measurement of voltage, current, power, and power factor
 
@@ -18,7 +18,7 @@ The goal is to reduce energy losses, improve efficiency, and lower electricity c
 
 -Low-cost and scalable design
 
-##Hardware Used
+## Hardware Used
 
 -Arduino Uno (ATmega328)
 
@@ -34,7 +34,7 @@ The goal is to reduce energy losses, improve efficiency, and lower electricity c
 
 -AC Power Supply
 
-##Working Principle
+## Working Principle
 
 Inductive loads cause current to lag voltage, reducing power factor and increasing losses.
 The PZEM-004T module measures real-time electrical parameters and sends them to the Arduino.
@@ -42,7 +42,7 @@ When the power factor falls below a set threshold, the Arduino activates relays 
 
 All system parameters are displayed in real time on an LCD.
 
-##Applications
+## Applications
 
 -Rural electrical systems
 
@@ -54,7 +54,7 @@ All system parameters are displayed in real time on an LCD.
 
 -Power quality enhancement
 
-##Advantages
+## Advantages
 
 -Reduces reactive power losses
 
@@ -66,9 +66,9 @@ All system parameters are displayed in real time on an LCD.
 
 -Simple and economical design
 
-##Limitations & Future Scope
+## Limitations & Future Scope
 
-###Limitations
+### Limitations
 
   -Correction limited by capacitor bank size
 
@@ -76,7 +76,7 @@ All system parameters are displayed in real time on an LCD.
 
   -No remote monitoring
 
-###Future Improvements
+### Future Improvements
 
   -IoT-based remote monitoring
   
